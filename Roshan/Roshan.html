@@ -121,7 +121,9 @@
             <img class="roshan" src="Roshan.jpg" alt="Roshan Khanal photo" draggable="false">
         </div>
     </main>
-
+            <center>
+            Click  ▶️ to play audio below:
+            </center>
     <!-- spacer ensures the main content is not obscured by the fixed audio bar -->
     <div class="spacer" aria-hidden="true"></div>
 
@@ -129,7 +131,7 @@
         <!-- Replace the src with the real audio path.
                  controlsList="nodownload" tries to disable download in supported browsers.
                  oncontextmenu prevents right-click menu on the audio element. -->
-        <audio controls controlsList="nodownload nofullscreen noremoteplayback" oncontextmenu="return false;" aria-label="Roshan Khanal audio">
+        <audio autoplay controls controlsList="nodownload nofullscreen noremoteplayback" oncontextmenu="return false;" aria-label="Roshan Khanal audio">
             <source src="AllAudio_clean.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
